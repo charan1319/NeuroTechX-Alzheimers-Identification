@@ -4,7 +4,7 @@ This project was created for the NeuroTechX summer 2023 competition. It analyzes
 The DL_GBDT file contains implementations for the MLP, gradient boosted decision tree, and CNN models in that order. To replicate results, you will need to download the data and change the filepaths to the correct location. You will then be able to run the cells in order to process the data and retrieve the results. 
 NOTE: ALL CELLS UNDER "Create images from cwt data and store in Drive if necessary for space" ARE COMPUTATIONALLY EXPENSIVE. This data processing is only required for the CNN model and can be skipped for all other purposes. 
 
-Further details about specifics of data setup and other models used in the "Classical" file can be found below
+Further details about specifics of data setup and other models used in the "Classical" file can be found below.
 __________________________________________________________________________________________________________________________________________
 
 

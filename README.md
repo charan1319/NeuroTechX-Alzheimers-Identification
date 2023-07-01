@@ -5,6 +5,9 @@ The DL_GBDT file contains implementations for the MLP, gradient boosted decision
 NOTE: ALL CELLS UNDER "Create images from cwt data and store in Drive if necessary for space" ARE COMPUTATIONALLY EXPENSIVE. This data processing is only required for the CNN model and can be skipped for all other purposes. 
 
 Further details about specifics of data setup and other models used in the "Classical" file can be found below: 
+__________________________________________________________________________________________________________________________________________
+
+
 After downloading all of the data, change the variable folder_name at the top of the code to the path of the folder containing all of the data. Be sure to not include the “/” (or “\”) at the end of the path.
 
 Below the declaration of folder_name is code for visualizing the preliminary data for any patient. Change the variable subject to the patient number to visualize the data for that patient. There are 88 patients in total, so valid values for subject are integers from 1 to 88, inclusive. The function visualize_data() is then called, plotting both the raw EEG data and ICA components of the patient.
